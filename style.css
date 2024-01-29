@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 12%;
+    background: white;
+}
+
+.header {
+    width: 30%;
+    margin:  50px auto 0px;
+    color: aliceblue;
+    background: gray;
+    text-align: center;
+    border: 1px solid wheat;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: none;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+form  {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid gainsboro;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.content {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid gainsboro;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {
+    margin: 10px 0px 0px 0px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn {
+    padding:  10px;
+    font-size: 15px;
+    color: white;
+    background:  darkcyan;
+    border: none;
+    border-radius: 5px;
+}
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid orangered;
+    background-color: tomato;
+    color: rgb(228, 24, 24);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.success {
+    color: rgb(255, 0, 0);
+    background: rgb(155, 85, 85);
+    border: 1px solid rgb(255, 10, 10);
+    margin-bottom: 20px;
+}
