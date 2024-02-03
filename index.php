@@ -1,11 +1,7 @@
 <?php include('server.php');?>
 <?php 
 
-    //  if(!isset($_SESSION['username'])) {
-    //      $_SESSION['msg'] = "You must log in first";
-    //      header('location: login.php');
-    //  }
-
+    /*ลบsessionผู้ใช้ และ กับไปหน้าlogin*/
     if(isset($_GET['logout'])) {
         session_destroy();
         unset($_SESSION['username']);
@@ -29,6 +25,7 @@
 
     <div class="content">
 
+        <!--แจ้งเตือนการเข้าระบบ-->
         <?php if (isset($_SESSION['success'])): ?>
             <div class="success"> 
                 <h3>
